@@ -22,7 +22,7 @@ with open("./SETTINGS.json") as f:
 
 def setup_environment():
     """Configuración del entorno CPA"""
-    print("🔧 CONFIGURANDO ENTORNO CPA")
+    print(" CONFIGURANDO ENTORNO CPA")
     print("="*60)
     print("🎯 Compositional Perturbation Autoencoder (CPA)")
     print("="*60)
