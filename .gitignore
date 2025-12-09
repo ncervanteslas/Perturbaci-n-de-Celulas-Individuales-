@@ -1,0 +1,69 @@
+
+## 2. `.gitignore`
+
+```gitignore
+# Datos
+data/
+!data/de_train.parquet
+!data/id_map.csv
+
+# Características generadas
+features/
+
+# Modelos entrenados
+models_cuda/
+cpa_models/
+cpa_features/
+
+# Resultados de predicción
+submission_*.csv
+submission_stats.json
+
+# Archivos temporales
+*.pkl
+*.npy
+*.npz
+
+# Cache de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Entornos virtuales
+.env
+.venv
+env/
+venv/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
+logs/
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de configuración local
+local_settings.json
+config.local.json
+
+# Archivos grandes (>50MB)
+*.h5
+*.hdf5
+*.dat
+*.bin
+
+# Checkpoints de entrenamiento
+checkpoints/
+tmp/
+temp/

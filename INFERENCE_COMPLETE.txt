@@ -1,0 +1,9 @@
+INFERENCIA COMPLETADA EXITOSAMENTE
+========================================
+Fecha: 2025-12-06 12:09:47
+Archivo: submission_final.csv
+Muestras: 255
+Genes: 18211
+Filas totales: 4643805
+RMSE modelo: 1.7964
+Tamaño archivo: 141.2 MB
