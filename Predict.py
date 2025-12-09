@@ -312,14 +312,14 @@ def main():
     print(f"\n📁 ARCHIVOS GENERADOS:")
     print(f"   1. submission_final.csv - Para Kaggle ({os.path.getsize('submission_final.csv') / 1024 / 1024:.1f} MB)")
     print(f"   2. submission_stats.json - Estadísticas")
-    
-    print(f"\n📊 RESUMEN FINAL:")
+
+    print(f"\n RESUMEN FINAL:")
     print(f"   • Muestras predichas: {len(id_map)}")
     print(f"   • Genes predichos: {predictions.shape[1]}")
     print(f"   • Filas en submission: {len(submission):,}")
     print(f"   • RMSE del modelo: {metadata['cv_score']:.4f}")
     
-    print(f"\n🎯 PARA KAGGLE:")
+    print(f"\n PARA KAGGLE:")
     print(f"   Sube el archivo: submission_final.csv")
     
     # Mostrar ejemplo
